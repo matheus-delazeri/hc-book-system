@@ -1,7 +1,7 @@
 const books = require('./database')
 const readline = require('readline-sync')
 
-var f_input = readline.question("Deseja buscar um livro? S/N")
+var f_input = readline.question("Want to search a book? Y/N")
 
 switch (f_input){
     case "S":
